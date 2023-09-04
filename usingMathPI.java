@@ -5,11 +5,11 @@ class Circulo {
         Scanner scanner = new Scanner(System.in);
  
         System.out.print("Informe o raio do circulo: ");
-        double raio = scanner.nextDouble();
+        double raio = scanner.nextDouble(); //ray_circunference
  
-        double diametro = 2 * raio;
-        double circunferencia = 2 * Math.PI * raio;
-        double area = Math.PI * Math.pow(raio, 2);
+        double diametro = 2 * raio; //diamenter
+        double circunferencia = 2 * Math.PI * raio; //circunference
+        double area = Math.PI * Math.pow(raio, 2); //total_area
  
         System.out.println("Diametro do circulo: " + diametro);
         System.out.println("Circunferencia do circulo: " + circunferencia);
