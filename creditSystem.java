@@ -4,24 +4,24 @@ class VerificarLimiteCredito {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
  
-        System.out.print("Numero da conta: ");
+        System.out.print("Numero da conta: "); //acc_number
         int numeroConta = scanner.nextInt();
  
-        System.out.print("Nome do Cliente: ");
+        System.out.print("Nome do Cliente: "); //client_name
         scanner.nextLine();
         String nomeCliente = scanner.nextLine();
  
-        System.out.print("Saldo do inicio do mes: ");
+        System.out.print("Saldo do inicio do mes: "); //total_balance
         double saldoInicial = scanner.nextDouble();
  
-        System.out.print("Total de todos os itens cobrados no mes: ");
+        System.out.print("Total de todos os itens cobrados no mes: "); //debits
         double cobrancas = scanner.nextDouble();
  
         System.out.print("Total de pagamentos efetuados pelo cliente no mes: ");
-        double pagamentos = scanner.nextDouble();
+        double pagamentos = scanner.nextDouble(); //payments
  
         System.out.print("Limite autorizado de credito: ");
-        double limiteCredito = scanner.nextDouble();
+        double limiteCredito = scanner.nextDouble(); //credit_limit
  
         double novoSaldo = saldoInicial + cobrancas - pagamentos;
  
