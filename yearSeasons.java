@@ -5,11 +5,11 @@ class EstacaoAno {
         Scanner scanner = new Scanner(System.in);
  
         System.out.print("Digite o mes (1 a 12): ");
-        short mes = scanner.nextShort();
+        short mes = scanner.nextShort(); //month_input
  
         String estacao;
  
-        switch (mes) {
+        switch (mes) { //unsing 4 switches + default
             case 1:
             case 2:
             case 12:
